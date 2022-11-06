@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'poppins';
+}
+.divider{
+    height: .25rem;
+    width: 20rem;
+    background-color: #F67381;
+}
+
+.section-title{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    display: block;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-banner{
+    font-family: 'Playfair Display', serif;
+    background-image: url('/storage/app/public/images/home/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: aqua; */
+    min-height: 100vh;
+    color: white;
+    position: relative;
+    padding: 2rem 0;
+}
+
+#home-banner h1{
+    padding-top: 15%;
+    /* font-size: 4rem; */
+    font-weight: 600;
+    margin-bottom: 8rem;
+}
+
+#home-banner .banner-text{
+    font-family: 'poppins';
+    /* font-size: 200%; */
+    margin: 0 2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* contact us banner */
+#contact-banner{
+    font-family: 'Playfair Display', serif;
+    background-image: url('/storage/app/public/images/home/hubungi-kami-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: aqua; */
+    min-height: 100vh;
+    color: white;
+    position: relative;
+    padding: 2rem 0;
+}
+
+#contact-banner h1{
+    padding-top: 15%;
+    /* font-size: 4rem; */
+    font-weight: 600;
+    margin-bottom: 8rem;
+}
+
+#contact-banner .banner-text{
+    font-family: 'poppins';
+    /* font-size: 200%; */
+    margin: 0 2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+#about-us{
+    margin: 5rem auto;
+    min-height: 70vh;
+}
+
+
+
+#about-us .gedung-img img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#profil-gembala{
+    min-height: 100vh;
+}
+
+#profil-gembala img{
+    margin-bottom: 2rem;
+}
+
+.profil-gembala-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ibadah{
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+#ibadah .container{
+
+}
+
+#ibadah .ibadah-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+#ibadah .info-ibadah{
+    margin-bottom: 2rem;
+}
+
+
+#ibadah .info-ibadah .info{
+    padding: 1.5rem;
+    word-wrap: break-word;
+}
+
+
+#ibadah .info-date{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#ibadah .info .badge{
+    width: 100%;
+}
+
+
+#youtube{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+
+    background-image: url('/storage/app/public/images/home/church2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#youtube .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#youtube .youtubeBtn{
+    transform: scale(0.55);
+    display: block;
+    margin: 0 auto;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+#youtube .youtubeBtn:hover{
+    transform: scale(0.7);
+}
+
+
+/* contact-us */
+#location{
+    height: 100vh;
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+#location .maps-container{
+    height: 100%;
+}
+
+#location .maps-container .maps{
+    width: 100%;
+    height: 80%;
+}
+
+#location-details{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+#location-details .location-detail{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+#location-details .info-icon{
+    /* width: 3rem;
+    height: 3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+#location-details .info-icon span, 
+#location-details .info-icon i{
+    font-size: 3rem;
+    color: white;
+    font-weight: 300;
+}
+
+#location-details .info-text{
+    font-weight: 400;
+    margin-left: 2rem;
+}

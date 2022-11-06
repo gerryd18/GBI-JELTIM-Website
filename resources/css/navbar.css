@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#navbar{
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem  2rem;
+    background: transparent;
+    width: 100%;
+    z-index: 99;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #navbar .nav-item{
+        padding: 1rem 0;
+    }
+
+    #navbar .nav-item a{
+        font-size: 1.5rem;
+    }
+
+  }
+
+
+

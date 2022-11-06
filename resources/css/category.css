@@ -1,0 +1,36 @@
+
+#homeCategory{
+    font-family: 'poppins';
+    margin-top: 2rem;
+
+}
+
+.table{
+    margin-top: 3rem;
+}
+
+.table thead th{
+    padding: 2rem 1rem;
+}
+
+#createCategoryBtn, #createInformationBtn{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.table-row .information-img{
+    width: 50%;
+}
+
+.alert-success{
+    margin-top: 3rem;
+}
+
+.pagination{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

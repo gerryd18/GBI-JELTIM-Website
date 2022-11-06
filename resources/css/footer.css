@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#footer{
+    font-family: 'poppins';
+    background-color: #122E4F;
+    color: white;
+}
+
+#footer .row{
+    padding: 3rem 3rem;
+    padding-bottom: 1rem;
+}
+.col-md-3{
+    text-align: center;
+}
+
+.col-md-3 ul li, .col-md-3 p{
+    font-weight: 200;
+    font-size: .9rem;
+}
+#footer .copyright{
+    margin: 0 2rem;
+    border-top: solid #DBE2EF 1px;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    margin: 0;
+}

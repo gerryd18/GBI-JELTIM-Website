@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+#home-banner{
+    font-family: 'Playfair Display', serif;
+    background-image: url('/storage/app/public/images/home/information-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: aqua; */
+    min-height: 100vh;
+    color: white;
+    position: relative;
+    padding: 2rem 0;
+}
+
+
+#home-banner h1{
+    padding-top: 15%;
+    font-weight: 600;
+    margin-bottom: 8rem;
+}
+
+#home-banner .banner-text{
+    font-family: 'poppins';
+    /* font-size: 200%; */
+    margin: 0 2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.alert{
+    margin: 1rem 1rem;
+}
+
+.informations-container{
+    margin-bottom: 5rem;
+}
+
+.information-wrapper{
+    margin-top: 2rem;
+}
+
+.information{
+    word-wrap: break-word;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+
+.information img{
+    margin: auto;
+    display: block;
+}
+
+.information .info-text{
+    /* background-color: aqua; */
+    padding: 2rem 1rem;
+}
+
+.info-text .info-title{
+    margin-bottom: 2rem;
+}
+
+.form{
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form span{
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.pagination{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
