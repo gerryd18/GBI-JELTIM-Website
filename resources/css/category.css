@@ -34,3 +34,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.editImg{
+    background-color: red;
+    display: block;
+    margin: auto;
+}
+
+#editInformation form{
+    padding: 2rem;
+}

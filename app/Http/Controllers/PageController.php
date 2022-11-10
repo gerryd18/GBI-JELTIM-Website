@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\models\Information;
 use App\models\Category;
+use Illuminate\Mail\Mailables\Envelope;
 
 class PageController extends Controller
 {
@@ -21,6 +22,15 @@ class PageController extends Controller
     }
 
     public function contact(){
+
         return view('contact-us');
     }
+
+    public function envelope(){
+        return new Envelope(
+            from: new Address('jeffrey@example.com', 'Jeffrey Way'),
+            subject: 'Order Shipped',
+        );
+    }
+    
 }

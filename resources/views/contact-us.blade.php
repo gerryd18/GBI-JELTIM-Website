@@ -31,11 +31,48 @@
             </div>
             <h4 class="info-text">gbijeltim@gmail.com</h4>
         </div>
+        
         <div class="location-detail mb-5">
             <div class="info-icon bg-dark rounded shadow">
                 <i class='bx bxl-whatsapp' style='color:#ffffff' ></i>
             </div>
             <h4 class="info-text">0812-8484-9822</h4>
+        </div>
+    </div>
+
+    <div id="messageForm" class="container">
+        <div class="col-md-12 p-3 shadow-sm rounded mt-3 mb-3">
+            <form action="" class="form" method="POST">
+                @csrf
+                <div class="form-group mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input  type="email" name="email"  class="form-control @error('email') is-invalid @enderror" value="{{old('email')}}" placeholder="Email Anda">
+                    @error('email')
+                        <small class="text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+                <div class="form-group mb-3">
+                    <label for="title" class="form-label">Judul</label>
+                    <input  type="text" name="title"  class="form-control @error('title') is-invalid @enderror" value="{{old('title')}}" placeholder="Judul">
+                    @error('title')
+                        <small class="text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+                <div class="form-group mb-3">
+                    <label for="message" class="form-label">Pesan</label>
+                    <br>
+                    <textarea name="message" id="message" >
+                        {{old('message')}}
+                    </textarea>
+                    {{-- <input  type="text" name="email"  class="form-control @error('email') is-invalid @enderror" value="{{old('email')}}" placeholder="Pesan Anda"> --}}
+                    @error('message')
+                        <small class="text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+                <div class="form-group mb-3">
+                    <button class="btn btn-dark shadow-sm" type="submit">Kirim Pesan</button>
+                </div>
+            </form>
         </div>
     </div>
 @endsection

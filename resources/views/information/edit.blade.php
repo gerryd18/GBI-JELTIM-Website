@@ -3,10 +3,11 @@
 @section('title' , 'Edit Information | GBI JELTIM')
 
 @section('content')
-<div class="container">
-    <div class=" col-md-8 p-3 rounded shadow">
-        <h4>Edit Information</h4>
-        <img src="{{asset('storage/images/cover/' . $info->cover)}}" class="w-50 rounded " alt="{{$info->title}}">
+@vite('resources/css/category.css')
+<div class="container mt-5 mb-5" id="editInformation">
+    <div class=" col-md-12 p-3 rounded shadow">
+        <h4 class="text-center mb-3">Edit Information</h4>
+        <img src="{{asset('storage/images/cover/' . $info->cover)}}" class="w-50 rounded editImg" alt="{{$info->title}}">
         <hr>
         
         {{-- Content --}}
